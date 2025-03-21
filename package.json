@@ -1,0 +1,21 @@
+{
+  "name": "funeralapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "build": "your-build-command"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.0"
+  },
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
